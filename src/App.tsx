@@ -1,21 +1,10 @@
 import React from "react";
-import { Button, Card, Col, Container, ListGroup, Nav, Navbar, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, ListGroup, Row } from "react-bootstrap";
 
 export default class App extends React.Component<{}, {}> {
   render() {
     return (
       <>
-        <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">Instagram</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Create Post</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-
         <Container>
           <Row>
             <Col xs="12" lg="6">
@@ -38,7 +27,7 @@ export default class App extends React.Component<{}, {}> {
                 <Card.Body>
                   <Card.Title> Title</Card.Title>
                   <Card.Text>Notes</Card.Text>
-                  <Button variant="primary">Ekle</Button>
+                  <Button variant="primary">Devam</Button>
                 </Card.Body>
               </Card>
             </Col>
